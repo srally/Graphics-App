@@ -19,7 +19,7 @@ public class AppGraph extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		img = new Texture("soccer.jpg");
 		img2 = new Texture("up.png");
-		img3 = new Texture("up.png");
+		img3 = new Texture("down.png");
 		x = 5;
 		y = 5;
 		dx = 12;
