@@ -17,7 +17,7 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "edu.binghamton.cs"
+        applicationId "app.graph"
         minSdkVersion 14
         targetSdkVersion 31
         versionCode 1
@@ -86,7 +86,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'edu.binghamton.cs/edu.binghamton.cs.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'app.graph/app.graph.AndroidLauncher'
 }
 
 eclipse.project.name = appName + "-android"
